@@ -1,0 +1,24 @@
+ESP32 Battery Tester - Setup Instructions
+==========================================
+
+IMPORTANT: Some files need to be copied from the artifacts panel!
+
+Files to copy from artifacts:
+1. src/main.cpp - Copy from "main.cpp - ESP32 Battery Tester"
+2. data_fs/index.html - Copy from "index.html - Web UI Battery Tester"
+3. .github/workflows/render-data.yml - Copy from "render-data.yml"
+4. src/config.h - Copy from config.h.template and edit with your WiFi
+
+Quick Start:
+1. Copy missing files from artifacts (see above)
+2. Run: make setup
+3. Run: make config
+4. Edit: src/config.h with your WiFi credentials
+5. Run: make flash
+6. Run: make monitor (note the IP address)
+7. Open browser: http://<ESP32_IP>
+8. Start testing!
+
+For detailed documentation, see README.md and QUICKSTART.md
+
+Happy Testing! 🔋

@@ -1,0 +1,38 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi Configuration
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+
+// Pin Configuration
+#define ZB2L3_RX_PIN 16
+#define ZB2L3_TX_PIN 17
+#define ZB2L3_BAUD_RATE 9600
+#define VOLTAGE_ADC_PIN 34
+#define CURRENT_ADC_PIN 35
+
+// Calibration
+#define VOLTAGE_CALIBRATION_FACTOR 2.0
+#define VOLTAGE_OFFSET 0.0
+#define CURRENT_SENSITIVITY 0.185
+#define CURRENT_ZERO_OFFSET 2.5
+
+// Battery Configuration
+#define MIN_VOLTAGE_THRESHOLD 3.0
+#define MAX_VOLTAGE_THRESHOLD 4.25
+#define BATTERY_RATED_CAPACITY 3000
+
+// Logging
+#define LOG_INTERVAL 5000
+#define MAX_LOG_FILE_SIZE 1048576
+
+// Web Server
+#define WEB_SERVER_PORT 80
+#define WS_UPDATE_INTERVAL 1000
+
+// Debug
+#define DEBUG_MODE true
+#define SERIAL_DEBUG_BAUD 115200
+
+#endif

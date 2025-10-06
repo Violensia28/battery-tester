@@ -1,0 +1,36 @@
+# PlatformIO
+.pio/
+.vscode/
+.clang_complete
+.gcc-flags.json
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# IDEs
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Credentials
+src/config.h
+config/wifi_credentials.txt
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.bak
